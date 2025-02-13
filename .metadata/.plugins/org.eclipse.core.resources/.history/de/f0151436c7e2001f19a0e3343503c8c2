@@ -1,0 +1,12 @@
+package dto;
+
+public class Company {
+	private int companyId;
+	private String companyName;
+	private String companyAddress;
+	private String companyEmail;
+	private long companyPhone;
+	
+	private Employee employee;
+	
+}

@@ -1,0 +1,20 @@
+package oops;
+
+class A{
+	A(){
+		System.out.println("A class Constructor");
+	}
+}
+
+class B{
+	
+}
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

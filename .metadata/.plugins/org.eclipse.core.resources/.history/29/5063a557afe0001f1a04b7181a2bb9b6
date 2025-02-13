@@ -1,0 +1,12 @@
+package springDemo;
+
+public class MainClass extends Instagram{
+
+	public static void main(String[] args) {
+		
+		Instagram instagram = new Instagram();
+		instagram.reels();
+
+	}
+
+}

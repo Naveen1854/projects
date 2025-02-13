@@ -1,0 +1,22 @@
+package controller;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import dto.Company;
+import dto.Employee;
+
+public class SaveBoth {
+
+	public static void main(String[] args) {
+		ApplicationContext applicationContext = new AnnotationConfigApplicationContext(ConfigurationClass.class);
+		Company company = applicationContext.getBean(Company.class);
+		company.setCompanyName("IBM");
+		company.setCompanyAddress("Hyd");
+		company.setCompanyEmail("ibm@123");
+		company.setCompanyPhone(8522991195l);
+		
+		Employee employee = applicationContext.getBean(Employee.class);
+	}
+
+}

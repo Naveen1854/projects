@@ -1,0 +1,15 @@
+package controller;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import dto.Company;
+
+public class SaveBoth {
+
+	public static void main(String[] args) {
+		ApplicationContext applicationContext = new AnnotationConfigApplicationContext(ConfigurationClass.class);
+		applicationContext.getBean(Company.class);
+	}
+
+}

@@ -1,0 +1,13 @@
+package spring_day7;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class BoxOffice {
+	
+	@Autowired
+	Pushpa2 pushpa2;
+	
+	
+	
+	void collection();
+}

@@ -1,0 +1,23 @@
+package oops;
+
+class Vehicle{
+	 void run() {
+		System.out.println("Vehicles are used to travel");
+	}
+}
+
+class Bike extends Vehicle{
+	@Override
+	 void run() {
+		System.out.println("Bike is starting");
+	}
+}
+
+public class MethodOverriding {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

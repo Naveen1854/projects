@@ -1,0 +1,15 @@
+package spring_day7;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		Pushpa2 pushpa2 = new  Pushpa2();
+		pushpa2.name();
+		
+		Salar salar = new Salar();
+		salar.name();
+
+	}
+
+}

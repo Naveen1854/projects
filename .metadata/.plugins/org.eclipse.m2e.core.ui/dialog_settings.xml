@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\kusum\eclipse_workspace\spring\oops\src\oops\Employee.java"/>
+			<item value="C:\Users\kusum\eclipse_workspace\spring\spring_day2\src\main\java\spring_day2\College.java"/>
+			<item value="C:\Users\kusum\eclipse_workspace\spring\spring_day6\src\main\java\spring_day6\Wife.java"/>
+			<item value="C:\Users\kusum\eclipse_workspace\spring\spring_day5\src\main\java\dto\MainClass.java"/>
+			<item value="C:\Users\kusum\eclipse_workspace\spring\spring_day4\src\main\java\spring_day4\MainClass.java"/>
+			<item value="C:\Users\kusum\eclipse_workspace\spring\spring_day3\src\main\java\laptop.xml"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.jsp"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="spring_hibernate_OneToMany"/>
+			<item value="spring_hibernate_OneToOne"/>
+			<item value="seleniumexpressautowiring"/>
+			<item value="seleniumexpress"/>
+			<item value="dependencyInjection"/>
+			<item value="springDemo"/>
+			<item value="spring_day8"/>
+			<item value="spring_day7"/>
+			<item value="spring_day6"/>
+			<item value="spring_day5"/>
+			<item value="spring_day4"/>
+			<item value="spring_day3"/>
+			<item value="spring_day2"/>
+			<item value="spring_day1"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

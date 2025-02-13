@@ -1,0 +1,6 @@
+package spring_day8;
+@Configuration
+@ComponentScan(basePackages="spring_day8")
+public class ConfigurationClass {
+
+}

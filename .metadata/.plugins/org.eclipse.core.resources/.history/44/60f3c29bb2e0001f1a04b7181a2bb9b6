@@ -1,0 +1,11 @@
+package dependencyInjection;
+
+public class Instagram implements Mobile{
+
+	@Override
+	public void open() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

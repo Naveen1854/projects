@@ -1,0 +1,15 @@
+package spring_day8;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+public class MainClass {
+	public static void main(String[] args) {
+		Bike bike = new Bike();
+		bike.brand();
+		
+		
+		ApplicationContext applicationContext = new AnnotationConfigApplicationContext("Configuration.class");
+		Bike bike = applicationContext.getBean("bike");
+	}
+}

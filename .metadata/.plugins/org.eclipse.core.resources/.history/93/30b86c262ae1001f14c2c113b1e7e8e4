@@ -1,0 +1,5 @@
+package seleniumexpress;
+
+public interface Service {
+
+}

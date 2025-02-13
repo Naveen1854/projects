@@ -1,0 +1,7 @@
+package dao;
+
+public class CarDao {
+	EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("sharath");
+	EntityManager entityManager = entityManagerFactory.createEntityManager();
+	EntityTransaction entityTransaction = entityManager.getTransaction();
+}

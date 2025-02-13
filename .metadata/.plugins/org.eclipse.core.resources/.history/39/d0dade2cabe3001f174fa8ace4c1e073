@@ -1,0 +1,16 @@
+package oops;
+
+class Vehicle{
+	static void run() {
+		System.out.println("Vehicles are used to travel");
+	}
+}
+
+public class MethodOverriding {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

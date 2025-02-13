@@ -1,0 +1,27 @@
+package oops;
+
+public class Account {
+	int acc_no;
+	String name;
+	float amount;
+	
+//	method to initialize object
+	void insert(int a, String n, float amt) {
+		acc_no = a;
+		name = n;
+		amount = amt;
+	}
+	
+//	depost method
+	void deposit(float amt) {
+		amount = amount + amt;
+		System.out.println(amt + "deposited");
+	}
+	
+//	withdraw method
+	void withdraw(float amt) {
+		if (amount < amt) {
+			System.out.println("Insufficient Balance");
+		}
+	}
+}

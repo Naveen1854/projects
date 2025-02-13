@@ -1,0 +1,11 @@
+package spring_day7;
+
+public class Pushpa2 implements Movie{
+
+	@Override
+	public void name() {
+		System.out.println("pushpa2 belongs to bhAAi");
+		
+	}
+
+}

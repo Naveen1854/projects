@@ -1,0 +1,7 @@
+package spring_day8;
+
+public class Bike {
+	public void brand() {
+		System.out.println("This is My new Bike");
+	}
+}

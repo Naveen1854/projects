@@ -1,0 +1,28 @@
+package controller;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import dao.CarDao;
+import dto.Car;
+import dto.Engine;
+
+public class SaveBoth {
+
+	public static void main(String[] args) {
+		ApplicationContext applicationContext = new AnnotationConfigApplicationContext("car.xml");
+		Car car = applicationContext.getBean("car", Car.class);
+		car.setCarName("KIA");
+		car.setCarColor("purple white");
+		car.setPrice(1500000);
+		
+		Engine engine = applicationContext.getBean("engine",Engine.class);
+		engine.setType("petrol");
+		engine.setModel("k1");
+		engine.setEngineCc(1200);
+		car.setEngine(engine);
+		
+		CarDao carDao = applicationContext.getBean("carDao",CarDao.class);
+	}
+
+}

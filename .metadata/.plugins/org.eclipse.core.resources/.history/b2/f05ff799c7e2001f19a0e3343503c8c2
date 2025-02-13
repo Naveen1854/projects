@@ -1,0 +1,10 @@
+package dto;
+
+public class Employee {
+	int employeeId;
+	String employeeName;
+	String employeeRole;
+	double employeeSal;
+	long employeePhone;
+	
+}

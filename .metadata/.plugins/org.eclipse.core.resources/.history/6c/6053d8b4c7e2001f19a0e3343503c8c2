@@ -1,0 +1,45 @@
+package dto;
+
+public class Employee {
+	private int employeeId;
+	private String employeeName;
+	private String employeeRole;
+	private double employeeSal;
+	private long employeePhone;
+	public int getEmployeeId() {
+		return employeeId;
+	}
+	public void setEmployeeId(int employeeId) {
+		this.employeeId = employeeId;
+	}
+	public String getEmployeeName() {
+		return employeeName;
+	}
+	public void setEmployeeName(String employeeName) {
+		this.employeeName = employeeName;
+	}
+	public String getEmployeeRole() {
+		return employeeRole;
+	}
+	public void setEmployeeRole(String employeeRole) {
+		this.employeeRole = employeeRole;
+	}
+	public double getEmployeeSal() {
+		return employeeSal;
+	}
+	public void setEmployeeSal(double employeeSal) {
+		this.employeeSal = employeeSal;
+	}
+	public long getEmployeePhone() {
+		return employeePhone;
+	}
+	public void setEmployeePhone(long employeePhone) {
+		this.employeePhone = employeePhone;
+	}
+	@Override
+	public String toString() {
+		return "Employee [employeeId=" + employeeId + ", employeeName=" + employeeName + ", employeeRole="
+				+ employeeRole + ", employeeSal=" + employeeSal + ", employeePhone=" + employeePhone + "]";
+	}
+	
+}

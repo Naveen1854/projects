@@ -1,0 +1,7 @@
+package springDemo;
+
+public class Instagram {
+	public static void reels() {
+		System.out.println("Scrolling reels");
+	}
+}
