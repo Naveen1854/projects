@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", serif;
+    color: white;
+}
+
+#page1{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color :black;
+    background-image: url("./assets/asset\ 23.jpeg");
+    background-size:cover;
+}
+
+nav{
+    flex-basis: 15%;
+    display: flex;
+    border: 0.5px solid #f8f8ff42;
+    /* border: 2px solid red; */
+}
+
+#nav_one{
+    flex-basis: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 2px solid blue; */
+}
+
+#nav_one a{
+    text-decoration: none;
+    color: #f8f8ff;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#nav_two{
+    flex-basis: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid blue; */
+}
+
+#nav_three{
+    flex-basis: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid blue; */
+}
+
+#nav_three svg{
+    fill: #fff;
+    height: 17px;
+    width: 17px;
+}
+
+#price_cart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 14px;
+}
+#price_cart p{
+    color: white;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+#headlines{
+    /* border: 2px solid red; */
+    flex-basis: 85%;
+    padding-left: 150px;
+}
+
+#headlines_info{
+    /* border: 2px solid red; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+#headlines_info p::selection,#headlines_info h2::selection{
+    color: black;
+    background-color: #fa2d64;
+}
+
+#headlines_info p{
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+#headlines_info h2{
+    font-size: 62px;
+    font-weight: 400;
+}
+
+#headlines_info button{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 23px;
+    font-size: 13px;
+    font-weight: 700;
+    transition: all 600ms 0s ease;
+}
+
+#headlines_info button:hover{
+    background-color: white;
+    color: #fa2d64;
+}
+
