@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+/* Overall body styling */
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(to bottom, #4a90e2, #50e3c2);
+	/* Blue to teal gradient */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	color: #fff;
+}
+
+/* Container for the form */
+.container {
+	background-color: rgba(255, 255, 255, 0.1);
+	/* Semi-transparent background */
+	padding: 40px 30px;
+	border-radius: 12px;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+	width: 350px;
+	text-align: center;
+}
+
+/* Title styling */
+h1 {
+	font-size: 28px;
+	margin-bottom: 20px;
+	color: #ffe156; /* Bright yellow for the title */
+}
+
+/* Input and label styling */
+.form-group {
+	display: flex; /* Use flexbox for label and input alignment */
+	align-items: center; /* Center align items vertically */
+	margin-bottom: 15px; /* Space between input fields */
+	text-align: left; /* Align text to the left */
+}
+
+label {
+	width: 100px; /* Fixed width for labels */
+	font-size: 16px; /* Style for labels */
+	margin-right: 10px; /* Space between label and input */
+	color: #fff; /* White color for labels */
+}
+
+input[type="email"], input[type="password"] {
+	flex: 1; /* Allow inputs to take the remaining width */
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+	font-size: 16px;
+}
+
+/* Button styling */
+button {
+	width: 100%;
+	background: linear-gradient(to right, #ff416c, #ff4b2b);
+	/* Bold pink to red gradient */
+	color: white;
+	border: none;
+	padding: 12px 0;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	margin-top: 15px;
+	box-shadow: 0 5px 15px rgba(255, 66, 107, 0.5);
+}
+
+/* Button hover effect */
+button:hover {
+	transform: scale(1.05);
+	background: linear-gradient(to right, #ff4b2b, #ff416c);
+	/* Reverse gradient on hover */
+	box-shadow: 0 8px 20px rgba(255, 66, 107, 0.6);
+}
+
+/* Button active effect */
+button:active {
+	transform: scale(0.98);
+	background: linear-gradient(to right, #d35400, #c0392b);
+	/* Darker red to orange gradient */
+	box-shadow: none;
+}

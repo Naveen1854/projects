@@ -1,0 +1,57 @@
+/* Home.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ff7eb3, #ffe29f); /* Pink to soft peach gradient */
+    transition: background 0.5s ease; /* Smooth transition for background changes */
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9); /* Slightly more opaque white */
+    border-radius: 12px;
+    padding: 30px 50px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15); /* Subtle shadow for better contrast */
+    transition: transform 0.3s ease; /* Smooth motion when hovered */
+}
+
+.container:hover {
+    transform: scale(1.03); /* Slightly enlarge on hover */
+}
+
+.container h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px; /* Slightly increase spacing for style */
+}
+
+.container a {
+    text-decoration: none;
+}
+
+.container button {
+    background: #ff7eb3; /* Soft pink button */
+    color: #333; /* Dark text for contrast */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease; /* Smooth motion */
+    margin: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle button shadow */
+}
+
+.container button:hover {
+    background: #ffe29f; /* Lighter peach on hover */
+    color: #000; /* Darker text for contrast on hover */
+    transform: scale(1.1); /* Enlarges button slightly */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow effect */
+}

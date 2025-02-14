@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+/* Overall body styling */
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(to bottom, #4e54c8, #8f94fb);
+	/* Blue to lavender gradient */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	color: #fff;
+}
+
+/* Container for the form */
+.container {
+	background-color: rgba(255, 255, 255, 0.15);
+	/* Light semi-transparent background */
+	padding: 40px 30px;
+	border-radius: 12px;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+	width: 350px;
+	text-align: left; /* Align text to the left for labels */
+}
+
+/* Title styling */
+h1 {
+	font-size: 28px;
+	margin-bottom: 20px;
+	color: #ffd700; /* Gold for the title */
+}
+
+/* Input styling */
+.form-group {
+	display: flex; /* Use flexbox for label and input alignment */
+	align-items: center; /* Center align items vertically */
+	margin-bottom: 20px; /* Space between input fields */
+}
+
+label {
+	width: 120px; /* Fixed width for labels */
+	font-size: 16px; /* Style for labels */
+	margin-right: 10px; /* Space between label and input */
+}
+
+input[type="text"], input[type="number"], input[type="tel"], input[type="email"],
+	input[type="password"] {
+	flex: 1; /* Allow inputs to take the remaining width */
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+	font-size: 16px;
+	background-color: #f0f0f0; /* Light background for inputs */
+	color: #333; /* Dark text for inputs */
+}
+
+/* Button styling */
+button {
+	width: 100%;
+	background: linear-gradient(to right, #6a11cb, #2575fc);
+	/* Blue to purple gradient */
+	color: white;
+	border: none;
+	padding: 12px 0;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	margin-top: 15px;
+	box-shadow: 0 5px 15px rgba(106, 17, 203, 0.5);
+}
+
+/* Button hover effect */
+button:hover {
+	transform: scale(1.05);
+	background: linear-gradient(to right, #2575fc, #6a11cb);
+	/* Reverse gradient on hover */
+	box-shadow: 0 8px 20px rgba(106, 17, 203, 0.6);
+}
+
+/* Button active effect */
+button:active {
+	transform: scale(0.98);
+	background: linear-gradient(to right, #4e54c8, #8f94fb);
+	/* Slightly darker gradient */
+	box-shadow: none;
+}
